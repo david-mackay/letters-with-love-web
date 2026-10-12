@@ -188,6 +188,33 @@ h1 {
   color: var(--ink-faint);
 }
 
+.store {
+  margin-top: 1.75rem;
+}
+
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+}
+
+.store-badge img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+.store-badge:focus-visible {
+  outline: 2px solid var(--rose);
+  outline-offset: 4px;
+}
+
+.store-note {
+  margin: 0.75rem 0 0;
+  max-width: 34rem;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+
 .site-footer {
   max-width: calc(var(--max) + 4rem);
   margin: 0 auto;
